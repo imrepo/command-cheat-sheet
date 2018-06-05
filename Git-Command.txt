@@ -1,0 +1,53 @@
+Git Commands are as below
+
+1) To get any repo url: 
+git config --get remote.origin.url
+
+2) TO get user name
+git config user.name
+ 
+3) To get email Id 
+git config --global user.email "Your Email Id"
+
+4) To Set User name  
+git config user.name 'Your User Name'
+
+5) To clean and delete untracked file
+git clean -f -d
+
+6) deleting a local branch
+git branch -d branch name. 
+
+7) undo Added file
+git reset filename (Individual)
+git reset (All)
+
+8) if url has changed.
+git remote set-url origin repo url
+
+9) To check already committed items.
+git log -p -2
+
+10) To add, commit & push git file.
+
+git add filename
+git add . (All file in once)
+git commit -m "Your commit Message."
+git push (To push your code.)
+
+11) To check current status
+git status
+
+12) To checkout different branch  
+git checkout branch-name
+
+13) create new branch and checkout
+git checkout -b branch-name
+
+14) create a new repository on the command line
+echo "# command-chit-sheet" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/username/command-chit-sheet.git
+git push -u origin master

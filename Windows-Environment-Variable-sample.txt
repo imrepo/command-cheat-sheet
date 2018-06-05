@@ -1,0 +1,21 @@
+ENV Variable:
+
+EMP_JAVA_OPTS = -Xms512 -Xmx4096m
+JAVA_HOME = D:\Java\jdk1.8.0_91
+M2_HOME=C:\apache-maven-3.5.2
+MAVEN_OPTS=Xmx1024m
+
+CLASSPATH=%JAVA_HOME%\lib
+
+Inside path:
+%SystemRoot%\system32
+C:\Program Files\Git\cmd
+C:\Program Files\nodejs\
+C:\apache-maven-3.5.2\bin
+C:\Python27
+C:\Python27\Scripts
+C:\Program Files\MongoDB\Server\3.4\bin
+C:\Program Files\PuTTY\
+C:\Program Files (x86)\VisualSVN\bin
+C:\Program Files\TortoiseSVN\bin
+C:\Program Files\MySQL\MySQL Utilities 1.6\

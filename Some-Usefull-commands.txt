@@ -1,0 +1,25 @@
+How to create ls in windows command prompt?
+
+You can solve this question with one simple command:
+
+echo dir %1 > %systemroot%\system32\ls.bat
+Make sure you run cmd.exe as admin first if you are on vista and up
+
+To connect remote serve or vm through ssh 
+ssh root@Ip-Address
+
+To restart the network server
+service network restart
+
+If you face Java Security cacerts error.
+sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target; nested exception is javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+keytool -import -trustcacerts -file D:/lets-encrypt-x3-cross-signed.pem -keystore lib/security/cacerts
+
+To Generate war
+jar -cvf project-name.war *
+
+
+
+
+

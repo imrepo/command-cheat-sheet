@@ -1,0 +1,7 @@
+#Notpad Shortcut
+ Reference site[http://webdevzoom.com/notepad-tips-and-features/]
+
+Shift + Tab (Alignment)
+
+Single Line Comment / Uncomment
+Ctrl+K or Ctrl+Q

@@ -1,0 +1,2 @@
+start with db location : mongod --port 27019 --dbpath D:\Your location
+ To get the cLI  : mongo --port 27019

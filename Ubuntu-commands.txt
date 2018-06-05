@@ -1,0 +1,25 @@
+(TO use various command Install Cheat seat)
+ 
+ apt-get insall
+ 
+ cat
+ 
+ chmod
+ 
+ chown
+ 
+ chkconfig
+ 
+ nohup
+ 
+ zip -r myfiles.zip mydir
+ 
+ nohup sh custom-script.sh &
+ 
+ mv  -v ~/Downloads/* ~/Videos/
+ 
+ mv /home/jack/testfile /home/jack/testfile2
+ 
+ mv *.ext  *.xml *.txt /path/to/dest/folder/
+ 
+ ps aux | less
