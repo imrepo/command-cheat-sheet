@@ -1,12 +1,14 @@
 1. Create maven project through command line
-mvn archetype:generate -DgroupId=Java-learning-examples -DartifactId=LearnByExamples -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+ --> mvn archetype:generate -DgroupId=Java-learning-examples -DartifactId=LearnByExamples -DarchetypeArtifactId=maven-archetype-quickstart     -DinteractiveMode=false
 
 2. Clean and install
-mvn clean install
+ --> mvn clean install
 
 3. Skip the test cases
-mvn clean install -DskipTest or (mvn clean install -Dmaven.test.skip=true)
+ --> mvn clean install -DskipTest or (mvn clean install -Dmaven.test.skip=true)
 
 4. check Maven version
-mvn --version
+ --> mvn --version
 
+5. Use assembly command to create fat jar with all the dependencies in the target directories.
+ --> mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
